@@ -1,0 +1,48 @@
+/** The Million Searches wordmark. Takes the text color, so it follows dark mode. */
+export function BrandLogo({ className }: { className?: string }) {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="-8 -8 724 241"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth={6.5}
+      strokeLinejoin="miter"
+      strokeMiterlimit={1.5}
+      role="img"
+      aria-label="Million Searches"
+      className={className}
+    >
+      <path transform="translate(0 0)" d="M0 100V2L46 78L92 2V100" />
+      <path transform="translate(119 0)" d="M0 0V100" />
+      <path transform="translate(146 0)" d="M0 0V97H62" />
+      <path transform="translate(235 0)" d="M0 0V97H62" />
+      <path transform="translate(324 0)" d="M0 0V100" />
+      <path
+        transform="translate(351 0)"
+        d="M52 0A52 50 0 1 1 52 100A52 50 0 1 1 52 0Z"
+      />
+      <path transform="translate(482 0)" d="M0 100V4L80 96V0" />
+      <path
+        transform="translate(0 125)"
+        d="M71 20 C64 6 50 0 37.0 0 C14 0 3 10 3 25 C3 41 16 47 37.0 50 C60 53 73 60 73 75 C73 90 60 100 37.0 100 C22 100 7 93 0 78"
+      />
+      <path transform="translate(91 125)" d="M0 3H60M0 50H60M0 97H60" />
+      <path transform="translate(168 125)" d="M0 100L42 2L84 100" />
+      <path
+        transform="translate(269 125)"
+        d="M0 100V3H44C60 3 70 13 70 28C70 43 60 53 44 53H0M42 53L72 100"
+      />
+      <path
+        transform="translate(358 125)"
+        d="M84 20C74 7 62 0 50 0C22 0 0 22 0 50C0 78 22 100 50 100C62 100 74 93 84 80"
+      />
+      <path transform="translate(461 125)" d="M0 0V100M72 0V100M0 50H72" />
+      <path transform="translate(557 125)" d="M0 3H60M0 50H60M0 97H60" />
+      <path
+        transform="translate(634 125)"
+        d="M71 20 C64 6 50 0 37.0 0 C14 0 3 10 3 25 C3 41 16 47 37.0 50 C60 53 73 60 73 75 C73 90 60 100 37.0 100 C22 100 7 93 0 78"
+      />
+    </svg>
+  );
+}
